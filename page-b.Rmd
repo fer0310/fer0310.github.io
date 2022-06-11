@@ -2,9 +2,9 @@
 
  <center><table border="4" ></center>
  <tr>
-  <td>
+  <td width="15%" bgcolor="lightsalmon">
    <body>
-     <center>Determinar densidad Aparente 𝒈/𝒄𝒎𝟑</CENTER><br><br>
+     <center><b>Determinar densidad Aparente 𝒈/𝒄𝒎𝟑</b></CENTER><br><br>
    </body>
 
   <body>

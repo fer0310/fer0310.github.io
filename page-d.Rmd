@@ -2,9 +2,9 @@
 <html>
  <center><table border="4" ></center>
  <tr>
-  <td>
+  <td width="15%" bgcolor="lightsalmon">
    <body>
-     <center>Humedad volumétrica</CENTER><br><br>
+     <center><b>Humedad volumétrica</b></CENTER><br><br>
    </body>
 
   <body>

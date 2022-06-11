@@ -2,9 +2,9 @@
 <html>
  <center><table border="4" ></center>
  <tr>
-  <td>
+  <td width="15%" bgcolor="lightsalmon">
    <body>
-     <center>Carbono orgánico y Materia orgánica</CENTER><br><br>
+     <center><b>Carbono orgánico y Materia orgánica</b></CENTER><br><br>
    </body>
 
   <body>

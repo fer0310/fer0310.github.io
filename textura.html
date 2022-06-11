@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -243,48 +243,47 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">CalSoil </a>
+      <a class="navbar-brand" href="index.html"><b> CalSoil </b></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="fa fa-spinner fa-pulse fa-3x fa-fw"></span>
+    <span class="fa fa-caret-square-o-up"></span>
      
-    home
+    Cálculo de textura y clase textural
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="textura.html">Deterinar textura</a>
+      <a href="textura.html">Determinar textura</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="fa fa-spinner fa-pulse fa-3x fa-fw"></span>
+    <span class="fa fa-leaf"></span>
      
     Cálculos  de Laboratorio
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Laboratorio</li>
     <li>
-      <a href="page-a.html">Cálcular densidad real</a>
+      <a href="page-a.html">Cálcular densidad real𝒈/𝒄𝒎𝟑</a>
     </li>
     <li>
-      <a href="page-b.html">Determinar densidad Aparente 𝒈/𝒄𝒎𝟑</a>
+      <a href="page-b.html">Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método cilindro</a>
     </li>
     <li>
-      <a href="page-c.html">Cálcular porosidad</a>
+      <a href="page-c.html">Cálcular porosidad %</a>
     </li>
     <li>
-      <a href="page-d.html">Humedad volumétrica</a>
+      <a href="page-d.html">Humedad volumétrica %</a>
     </li>
     <li>
-      <a href="page-e.html">Carbono orgánico y Materia orgánica</a>
+      <a href="page-e.html">Carbono orgánico y Materia orgánica %</a>
     </li>
   </ul>
 </li>
@@ -306,21 +305,23 @@ $(document).ready(function () {
 
 <html>
 <center>
-<table border="4" >
+<table border="5" >
 </center>
 <tr>
-<td>
+<td width="15%" bgcolor="lightsalmon">
 <body>
 <center>
-Cálcular textura<br><br>
+<b>Cálcular textura</b><br><br>
 </body>
 <body>
 <form name="MyForm">
+<p align="left">
 La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1" size="20"><br><br> Lb40s( lectura en g L-1 del blanco a los 40 s. ):<input type="text" name="numero2" size="20"><br><br> ta40s( temperatura en °C de la muestra a los 40 s.):<input type="text" name="numero3" size="20"><br><br> tb40s( temperatura en °C del blanco a los 40s.) :<input type="text" name="numero4" size="20"><br><br> masa en g de muestra:<input type="text" name="numero5" size="20"><br><br> Calcular el contenido de limo + arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Cálcular" onclick="real()">
 </center>
-<p><input type="reset" value="c"></p>
+<input type="reset" value="c">
+</p>
 </form>
 <script>
      function real() {
@@ -333,11 +334,13 @@ La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1"
      }
     </script>
 <form name="MyForm2">
+<p align="left">
 La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" size="20"><br><br> Lb2h(lectura en g L-1 del blanco a las 2h.):<input type="text" name="numero7" size="20"><br><br> ta2h( temperatura en °C de la muestra a las 2h.):<input type="text" name="numero8" size="20"><br><br> tb2h( temperatura en °C del blanco a las 2h.):<input type="text" name="numero9" size="20"><br><br> masa en g de muestra:<input type="text" name="numero10" size="20"><br><br> Calcular el contenido de arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Cálcular" onclick="segu()">
 </center>
-<p><input type="reset" value="c"></p>
+<input type="reset" value="c">
+</p>
 </form>
 <script>
      function segu() {
@@ -350,6 +353,7 @@ La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" siz
      }
     </script>
 <form name="MyForm3">
+<p align="left">
 (𝑙𝑖𝑚𝑜+𝑎𝑟𝑐𝑖𝑙𝑙𝑎)%:<input type="text" name="numero11" size="20"><br><br> arcilla :<input type="text" name="numero12" size="20"><br><br> Calcular el contenido de limo, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Cálcular" onclick="terce()">
@@ -364,11 +368,13 @@ La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" siz
      }
     </script>
 <form name="MyForm4">
+<p align="left">
 (𝑙𝑖𝑚𝑜+𝑎𝑟𝑐𝑖𝑙𝑙𝑎) :<input type="text" name="numero13" size="20"><br><br> Cálcular el contenido de arena, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Cálcular" onclick="cuarta()">
 </center>
-<p><input type="reset" value="c"></p>
+<input type="reset" value="c">
+</p>
 </form>
 <script>
      function cuarta() {

@@ -1,22 +1,22 @@
 
 <html>
- <center><table border="4" ></center>
+ <center><table border="5" ></center>
  <tr>
-  <td>
+  <td width="15%" bgcolor="lightsalmon">
    <body>
-     <center>Cálcular textura<br><br>
+     <center><b>Cálcular textura</b><br><br>
    </body>
 
   <body>
-    <form name="MyForm">
-      La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1" size="20"><br><br>
+    <form name="MyForm"><p align="left">
+     La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1" size="20"><br><br>
      Lb40s( lectura en g L-1 del blanco a los 40 s. ):<input type="text" name="numero2" size="20"><br><br>
       ta40s( temperatura en °C de la muestra a los 40 s.):<input type="text" name="numero3" size="20"><br><br>
       tb40s( temperatura en °C del blanco a los 40s.) :<input type="text" name="numero4" size="20"><br><br>
        masa en g de muestra:<input type="text" name="numero5" size="20"><br><br>
      Calcular el contenido de limo + arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Cálcular" onclick="real()"></center><input type="reset" value="c">
-         
+   </p>    
 
   </form>
 
@@ -30,7 +30,7 @@
      document.MyForm.resultado.value=(((n1-((20-n3)*0.35))-(n2-((20-n4)*0.35)))/n5)*100;
      }
     </script>
-    <form name="MyForm2">
+    <form name="MyForm2"><p align="left">
      La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" size="20"><br><br>
      Lb2h(lectura en g L-1 del blanco a las 2h.):<input type="text" name="numero7" size="20"><br><br>
       ta2h( temperatura en °C de la muestra a las 2h.):<input type="text" name="numero8" size="20"><br><br>
@@ -38,7 +38,7 @@
        masa en g de muestra:<input type="text" name="numero10" size="20"><br><br>
      Calcular el contenido de arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Cálcular" onclick="segu()"></center><input type="reset" value="c">
-         
+         </p>
 
   </form>
 
@@ -52,7 +52,7 @@
      document.MyForm2.resultado.value=(((n6-((20-n8)*0.35))-(n7-((20-n9)*0.35)))/n10)*100;
      }
     </script>
-     <form name="MyForm3">
+     <form name="MyForm3"><p align="left">
    (𝑙𝑖𝑚𝑜+𝑎𝑟𝑐𝑖𝑙𝑙𝑎)%:<input type="text" name="numero11" size="20"><br><br>
   arcilla :<input type="text" name="numero12" size="20"><br><br>
      Calcular el contenido de limo, en %:        <input type="text" name="resultado" size="20"><br><br>
@@ -68,11 +68,11 @@
      document.MyForm3.resultado.value=(n11-n12);
      }
     </script>
-   <form name="MyForm4">
+   <form name="MyForm4"><p align="left">
     (𝑙𝑖𝑚𝑜+𝑎𝑟𝑐𝑖𝑙𝑙𝑎) :<input type="text" name="numero13" size="20"><br><br>
      Cálcular el contenido de arena, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Cálcular" onclick="cuarta()"></center><input type="reset" value="c">
-
+</p>
   </form>
 
    <script>

@@ -1,32 +1,32 @@
 ame: "my-website"
 output_dir: "."
 navbar:
-  title: "CalSoil "
+  title: <b> CalSoil </b>
+  icon: fa fa-leaf
   left:
-    - text: "home"
-      icon: fa-spinner fa-pulse fa-3x fa-fw
+    - text: "Cálculo de textura y clase textural"
+      icon: fa-caret-square-o-up
       href: home.html
       menu:
-        - text: "Deterinar textura"
+        - text: "Determinar textura"
           href: textura.html
     - text: "Cálculos  de Laboratorio"
-      icon: fa-spinner fa-pulse fa-3x fa-fw
+      icon: fa fa-leaf
       href: index.html
       menu:
-        - text: "Laboratorio"
-        - text: "Cálcular densidad real"
+        - text: "Cálcular densidad real𝒈/𝒄𝒎𝟑"
           href: page-a.html
-        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑"
+        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método cilindro"
           href: page-b.html
-        - text: "Cálcular porosidad"
+        - text: "Cálcular porosidad %"
           href: page-c.html
-        - text: "Humedad volumétrica"
+        - text: "Humedad volumétrica %"
           href: page-d.html
-        - text: "Carbono orgánico y Materia orgánica"
+        - text: "Carbono orgánico y Materia orgánica %"
           href: page-e.html
  
 output:
   html_document:
-    theme: cerulean
+    theme: united
     highlight: textmate
 
