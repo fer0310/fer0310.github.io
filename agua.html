@@ -11,7 +11,7 @@
 
 
 
-<title>about.knit</title>
+<title>agua.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -320,7 +320,40 @@ $(document).ready(function () {
 </div>
 
 
-
+<html>
+<center>
+<table border="4">
+</center>
+<tr>
+<td width="15%" bgcolor="lightsalmon">
+<body>
+<center>
+<b>Cálcular humedad aprovechable</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm">
+Ingrese capacidad de campo:<input type="text" name="numero1" size="20"><br><br> Ingrese punto de marchitez permanente :<input type="text" name="numero2" size="20"><br><br> Ingrese densidad aparente:<input type="text" name="numero3" size="20"><br><br> Ingrese profundidad:<input type="text" name="numero4" size="20"><br><br> Resultado en Lm2: <input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Cálcular" onclick="agua()">
+</center>
+<p><input type="reset" value="c"></p>
+</form>
+<script>
+     function agua() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     var n3 = parseFloat(document.MyForm.numero3.value);
+     var n4 = parseFloat(document.MyForm.numero4.value);
+     document.MyForm.resultado.value=((((n1-n2)*n3*n4)/100)*10);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+</html>
 
 
 

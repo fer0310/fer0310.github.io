@@ -4,12 +4,20 @@ navbar:
   title: <b> CalSoil </b>
   icon: fa fa-leaf
   left:
-    - text: "Cálculo de textura y clase textural"
+    - text: "Cálculo de textura "
       icon: fa-caret-square-o-up
       href: home.html
       menu:
         - text: "Determinar textura"
           href: textura.html
+    - text: "Ecuaciones "
+      icon: fa-caret-square-o-up
+      href: home1.html
+      menu:
+        - text: "Regla de tres"
+          href: regla.html
+        - text: "Humedad aprovechable"
+          href: agua.html          
     - text: "Cálculos  de Laboratorio"
       icon: fa fa-leaf
       href: index.html
