@@ -1,0 +1,32 @@
+ame: "my-website"
+output_dir: "."
+navbar:
+  title: "CalSoil "
+  left:
+    - text: "home"
+      icon: fa-spinner fa-pulse fa-3x fa-fw
+      href: home.html
+      menu:
+        - text: "Deterinar textura"
+          href: textura.html
+    - text: "Cálculos  de Laboratorio"
+      icon: fa-spinner fa-pulse fa-3x fa-fw
+      href: index.html
+      menu:
+        - text: "Laboratorio"
+        - text: "Cálcular densidad real"
+          href: page-a.html
+        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑"
+          href: page-b.html
+        - text: "Cálcular porosidad"
+          href: page-c.html
+        - text: "Humedad volumétrica"
+          href: page-d.html
+        - text: "Carbono orgánico y Materia orgánica"
+          href: page-e.html
+ 
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+

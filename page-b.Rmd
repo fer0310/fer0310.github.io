@@ -1,0 +1,58 @@
+<html>
+
+ <center><table border="4" ></center>
+ <tr>
+  <td>
+   <body>
+     <center>Determinar densidad Aparente 𝒈/𝒄𝒎𝟑</CENTER><br><br>
+   </body>
+
+  <body>
+    <form name="MyForm">
+      Ingrese el  diámetro :<input type="text" name="numero1" size="20"><br><br>
+       Resultado  de radio :        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular  radio" onclick="radio()"></center>
+       <center><input type="reset" value="c"></center>
+       </form>
+       <form name="MyForma">
+      Ingrese el radio :<input type="text" name="numero2" size="20"><br><br>
+       Ingrese la altura :<input type="text" name="numero3" size="20"><br><br>
+       Resultado  de volumen :        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular volumen" onclick="volumen()"></center>
+         <center><input type="reset" value="c"></center>
+       </form>
+       <form name="MyFormas">
+      Ingrese la masa :<input type="text" name="numero4" size="20"><br><br>
+       Ingrese el volumen :<input type="text" name="numero5" size="20"><br><br>
+       Resultado  de densidad aparente :        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular densidad aparente" onclick="densidad()"></center>
+         <center><input type="reset" value="c"></center>
+       </form>
+    <script>
+     function radio() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     document.MyForm.resultado.value=(n1/2);
+     }
+    </script>
+    <script>
+     function volumen() {
+     var n2 = parseFloat(document.MyForma.numero2.value);
+     var n3 = parseFloat(document.MyForma.numero3.value);
+     document.MyForma.resultado.value=(3.1416*((n2)**2)*n3);
+     }
+    </script>
+    <script>
+     function densidad() {
+     var n4 = parseFloat(document.MyFormas.numero4.value);
+     var n5 = parseFloat(document.MyFormas.numero5.value);
+     document.MyFormas.resultado.value=(n4/n5);
+     }
+    </script>
+  </body>
+ </td>
+ </tr>
+</table>
+
+
+
+</html>

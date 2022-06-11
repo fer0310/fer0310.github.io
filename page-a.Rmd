@@ -1,0 +1,37 @@
+
+<html>
+ <center><table border="4" ></center>
+ <tr>
+  <td>
+   <body>
+     <center>Cálcular densidad real</CENTER><br><br>
+   </body>
+
+  <body>
+    <form name="MyForm">
+      Peso del balón vacío :<input type="text" name="numero1" size="20"><br><br>
+      Peso del balón + muestra del suelo :<input type="text" name="numero2" size="20"><br><br>
+      Peso del balón + suelo + agua :<input type="text" name="numero3" size="20"><br><br>
+      Peso del balón aforado con agua :<input type="text" name="numero4" size="20"><br><br>
+     Resultado Densidad Real :        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular" onclick="real()"></center><input type="reset" value="c">
+         
+
+  </form>
+
+  <script>
+     function real() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     var n3 = parseFloat(document.MyForm.numero3.value);
+     var n4 = parseFloat(document.MyForm.numero4.value);
+     document.MyForm.resultado.value=((n2-n1)/((n4-n1)-(n3-n2)));
+     }
+    </script>
+  </body>
+ </td>
+ </tr>
+</table>
+
+
+</html>

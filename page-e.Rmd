@@ -1,0 +1,47 @@
+
+<html>
+ <center><table border="4" ></center>
+ <tr>
+  <td>
+   <body>
+     <center>Carbono orgánico y Materia orgánica</CENTER><br><br>
+   </body>
+
+  <body>
+    <form name="MyForm">
+      Peso total mufla :<input type="text" name="numero1" size="20"><br><br>
+      Peso en seco mufla :<input type="text" name="numero2" size="20"><br><br>
+      Resultado carbono orgánico:        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular" onclick="carbono()"></center><input type="reset" value="c">
+
+  </form>
+  
+  <body>
+    <form name="MyForma">
+     % carbono orgánico:<input type="text" name="numero3" size="20"><br><br>
+     Materia orgánica:        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular" onclick="materia()"></center><input type="reset" value="c">
+         
+
+  </form>
+
+  <script>
+     function carbono() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     document.MyForm.resultado.value=(n1-n2);
+     }
+    </script>
+      <script>
+     function materia() {
+     var n3 = parseFloat(document.MyForma.numero3.value);
+     document.MyForma.resultado.value=(n3*1.724);
+     }
+    </script>
+  </body>
+ </td>
+ </tr>
+</table>
+
+
+</html>

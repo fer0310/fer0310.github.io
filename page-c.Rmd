@@ -1,0 +1,34 @@
+
+<html>
+ <center><table border="4" ></center>
+ <tr>
+  <td>
+   <body>
+     <center>Cálcular porosidad</CENTER><br><br>
+   </body>
+
+  <body>
+    <form name="MyForm">
+      Densidad aparente :<input type="text" name="numero1" size="20"><br><br>
+      Densidad real :<input type="text" name="numero2" size="20"><br><br>
+      Resultado porosidad :        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Cálcular" onclick="porosidad()"></center><input type="reset" value="c">
+         
+
+  </form>
+
+  <script>
+     function porosidad() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     document.MyForm.resultado.value=100-((n1/n2)*100);
+     }
+    </script>
+  </body>
+ </td>
+ </tr>
+</table>
+
+
+
+</html>
