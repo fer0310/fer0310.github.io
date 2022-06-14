@@ -3,13 +3,15 @@ output_dir: "."
 navbar:
   title: <b> CalSoil </b>
   icon: fa fa-leaf
-  href: home.html
+  href: home2.html
   left:
     - text: "Cálculo de textura "
       icon: fa-caret-square-o-up
       menu:
         - text: "Determinar textura"
           href: textura.html
+        - text: "Determinar clase textural"
+          href: texcla.html
     - text: "Ecuaciones "
       icon: fa-caret-square-o-up
       href: home1.html
