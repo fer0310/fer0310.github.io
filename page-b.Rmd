@@ -1,8 +1,13 @@
 <html>
-
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
  <center><table border="4" ></center>
  <tr>
-  <td width="15%" bgcolor="lightsalmon">
+  <td  bgcolor="moccasin">
    <body>
      <center><b>Determinar densidad Aparente 𝒈/𝒄𝒎𝟑</b></CENTER><br><br>
    </body>
@@ -11,22 +16,22 @@
     <form name="MyForm">
       Ingrese el  diámetro :<input type="text" name="numero1" size="20"><br><br>
        Resultado  de radio :        <input type="text" name="resultado" size="20"><br><br>
-     <center><input type="button" value="Cálcular  radio" onclick="radio()"></center>
-       <center><input type="reset" value="c"></center>
+     <center><input type="button" value="Calcular  radio" onclick="radio()"></center>
+       <center><input type="reset" value="Eliminar"></center>
        </form>
        <form name="MyForma">
       Ingrese el radio :<input type="text" name="numero2" size="20"><br><br>
        Ingrese la altura :<input type="text" name="numero3" size="20"><br><br>
        Resultado  de volumen :        <input type="text" name="resultado" size="20"><br><br>
-     <center><input type="button" value="Cálcular volumen" onclick="volumen()"></center>
-         <center><input type="reset" value="c"></center>
+     <center><input type="button" value="Calcular volumen" onclick="volumen()"></center>
+         <center><input type="reset" value="Eliminar"></center>
        </form>
        <form name="MyFormas">
       Ingrese la masa :<input type="text" name="numero4" size="20"><br><br>
        Ingrese el volumen :<input type="text" name="numero5" size="20"><br><br>
        Resultado  de densidad aparente :        <input type="text" name="resultado" size="20"><br><br>
-     <center><input type="button" value="Cálcular densidad aparente" onclick="densidad()"></center>
-         <center><input type="reset" value="c"></center>
+     <center><input type="button" value="Calcular densidad aparente" onclick="densidad()"></center>
+         <center><input type="reset" value="Eliminar"></center>
        </form>
     <script>
      function radio() {
@@ -52,7 +57,7 @@
  </td>
  </tr>
 </table>
-
+</FONT>
 
 
 </html>

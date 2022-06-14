@@ -1,8 +1,14 @@
 
 <html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
  <center><table border="4" ></center>
  <tr>
-  <td width="15%" bgcolor="lightsalmon">
+  <td  bgcolor="moccasin">
    <body>
      <center><b>Cálcular densidad real</b></CENTER><br><br>
    </body>
@@ -14,7 +20,7 @@
       Peso del balón + suelo + agua :<input type="text" name="numero3" size="20"><br><br>
       Peso del balón aforado con agua :<input type="text" name="numero4" size="20"><br><br>
      Resultado Densidad Real :        <input type="text" name="resultado" size="20"><br><br>
-     <center><input type="button" value="Cálcular" onclick="real()"></center><input type="reset" value="c">
+     <center><input type="button" value="Calcular" onclick="real()"></center><input type="reset" value="Eliminar">
          
 
   </form>
@@ -32,6 +38,6 @@
  </td>
  </tr>
 </table>
-
+</FONT>
 
 </html>

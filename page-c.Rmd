@@ -1,10 +1,16 @@
 
 <html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
  <center><table border="4" ></center>
  <tr>
-  <td width="15%" bgcolor="lightsalmon">
+  <td  bgcolor="moccasin">
    <body>
-     <center><b>Cálcular porosidad</b></CENTER><br><br>
+     <center><b>Calcular porosidad</b></CENTER><br><br>
    </body>
 
   <body>
@@ -12,7 +18,7 @@
       Densidad aparente :<input type="text" name="numero1" size="20"><br><br>
       Densidad real :<input type="text" name="numero2" size="20"><br><br>
       Resultado porosidad :        <input type="text" name="resultado" size="20"><br><br>
-     <center><input type="button" value="Cálcular" onclick="porosidad()"></center><input type="reset" value="c">
+     <center><input type="button" value="Calcular" onclick="porosidad()"></center><input type="reset" value="Eliminar">
          
 
   </form>
@@ -28,7 +34,7 @@
  </td>
  </tr>
 </table>
-
+</FONT>
 
 
 </html>
