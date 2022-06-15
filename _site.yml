@@ -26,15 +26,16 @@ navbar:
       menu:
         - text: "Cálcular densidad real𝒈/𝒄𝒎𝟑"
           href: page-a.html
-        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método cilindro"
+        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método del cilindro"
           href: page-b.html
         - text: "Cálcular porosidad %"
           href: page-c.html
         - text: "Humedad volumétrica %"
           href: page-d.html
-        - text: "Carbono orgánico y Materia orgánica %"
+        - text: "Carbono orgánico y Materia orgánica % por el método de Ignición"
           href: page-e.html
- 
+        - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑,método de la parafina"
+          href: para.html 
 output:
   html_document:
     theme: united

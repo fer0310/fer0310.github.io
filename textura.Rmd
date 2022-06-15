@@ -21,7 +21,7 @@ body {
       ta40s( temperatura en °C de la muestra a los 40 s.):<input type="text" name="numero3" size="20"><br><br>
       tb40s( temperatura en °C del blanco a los 40s.) :<input type="text" name="numero4" size="20"><br><br>
        masa en g de muestra:<input type="text" name="numero5" size="20"><br><br>
-     Calcular el contenido de limo + arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
+     Resultado del contenido de limo + arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Calcular" onclick="real()"></center>
      <input type="reset" value="Eliminar">
    </p>    
@@ -33,7 +33,7 @@ body {
       ta2h( temperatura en °C de la muestra a las 2h.):<input type="text" name="numero8" size="20"><br><br>
       tb2h( temperatura en °C del blanco a las 2h.):<input type="text" name="numero9" size="20"><br><br>
        masa en g de muestra:<input type="text" name="numero10" size="20"><br><br>
-     Calcular el contenido de arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
+     Resultado del contenido de arcilla, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Calcular" onclick="segu()"></center>
      <input type="reset" value="Eliminar">
          </p>
@@ -42,7 +42,7 @@ body {
      <form name="MyForm3"><p align="left">
    (Limo + arcilla)%:<input type="text" name="numero11" size="20"><br><br>
   arcilla :<input type="text" name="numero12" size="20"><br><br>
-     Calcular el contenido de limo, en %:        <input type="text" name="resultado" size="20"><br><br>
+    Resultado del  contenido de limo, en %:        <input type="text" name="resultado" size="20"><br><br>
      <center><input type="button" value="Calcular" onclick="terce()"></center><input type="reset" value="Eliminar">
          
 
@@ -51,7 +51,7 @@ body {
   
 <form name="MyForm4"><p align="left">
     (Limo + arcilla) :<input type="text" name="numero13" size="20"><br><br>
-     Cálcular el contenido de arena, en %:<input type="text" name="resultado" size="20"><br><br>
+     Resultado del contenido de arena, en %:<input type="text" name="resultado" size="20"><br><br>
        <center><input type="button" value="Calcular" onclick="cuarta()"></center>
      <input type="reset" value="Eliminar">
   </p>

@@ -1,0 +1,112 @@
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+
+<FONT FACE="times new roman">
+ <center><table border="5" ></center>
+ <tr>
+  <td  bgcolor="moccasin">
+   <body>
+     <center><b>Calcular densidad aparente</b><br><br>
+   </body>
+
+  <body>
+    <form name="MyForm"><p align="left">
+     4to Terrón Húmedo:<input type="text" name="numero1" size="20"><br><br>
+     4toTerrón Seco 105°C:<input type="text" name="numero2" size="20"><br><br>
+     Resultado paso 1:        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Calcular" onclick="real()"></center>
+     <input type="reset" value="Eliminar">
+   </p>    
+
+  </form>
+    <form name="MyForm2"><p align="left">
+     TerrónParafina:<input type="text" name="numero6" size="20"><br><br>
+     TerrónHúmedo:<input type="text" name="numero7" size="20"><br><br>
+     Densidad parafina:<input type="text" name="numero8" size="20"><br><br>
+     Resultado paso 2:        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Calcular" onclick="segu()"></center>
+     <input type="reset" value="Eliminar">
+         </p>
+
+  </form>
+     <form name="MyForm3"><p align="left">
+   VolúmenDesplazado:<input type="text" name="numero11" size="20"><br><br>
+ Resultado paso 2:<input type="text" name="numero12" size="20"><br><br>
+    Resultado paso 3:        <input type="text" name="resultado" size="20"><br><br>
+     <center><input type="button" value="Calcular" onclick="terce()"></center><input type="reset" value="Eliminar">
+         
+
+  </form>
+  
+  
+  <form name="MyForm4"><p align="left">
+    TerrónHúmedo:<input type="text" name="numero13" size="20"><br><br>
+   Resultado paso 1:<input type="text" name="numero14" size="20"><br><br>
+    Resultado paso 4:<input type="text" name="resultado" size="20"><br><br>
+       <center><input type="button" value="Calcular" onclick="cuarta()"></center>
+     <input type="reset" value="Eliminar">
+    </p>
+   </form>
+  
+  
+  <form name="MyForm5"><p align="left">
+    Paso 4:<input type="text" name="numero15" size="20"><br><br>
+   Paso 3 :<input type="text" name="numero16" size="20"><br><br>
+    Resultado paso 5:<input type="text" name="resultado" size="20"><br><br>
+       <center><input type="button" value="Calcular" onclick="quinto()"></center>
+     <input type="reset" value="Eliminar">
+  </p>
+</form>
+
+  
+  <script>
+     function real() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     document.MyForm.resultado.value=((n1-n2)/n1);
+     }
+    </script>
+  <script>
+     function segu() {
+     var n6 = parseFloat(document.MyForm2.numero6.value);
+     var n7 = parseFloat(document.MyForm2.numero7.value);
+     var n8 = parseFloat(document.MyForm2.numero8.value);
+     document.MyForm2.resultado.value=((n6-n7)/n8);
+     }
+    </script>
+
+
+  <script>
+     function terce() {
+     var n11 = parseFloat(document.MyForm3.numero11.value);
+     var n12 = parseFloat(document.MyForm3.numero12.value);
+     document.MyForm3.resultado.value=(n11-n12);
+     }
+    </script>
+   
+
+   <script>
+     function cuarta() {
+     var n13 = parseFloat(document.MyForm4.numero13.value);
+     var n14 = parseFloat(document.MyForm4.numero14.value);
+     document.MyForm4.resultado.value=(n13-(n14*n13));
+     }
+    </script>
+    <script>
+     function quinto() {
+     var n15 = parseFloat(document.MyForm5.numero15.value);
+     var n16 = parseFloat(document.MyForm5.numero16.value);
+     document.MyForm5.resultado.value=(n15/n16);
+     }
+    </script>
+  </body>
+ </td>
+ </tr>
+</table>
+</FONT>
+
+</html>

@@ -294,7 +294,7 @@ $(document).ready(function () {
       <a href="page-a.html">Cálcular densidad real𝒈/𝒄𝒎𝟑</a>
     </li>
     <li>
-      <a href="page-b.html">Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método cilindro</a>
+      <a href="page-b.html">Determinar densidad Aparente 𝒈/𝒄𝒎𝟑, método del cilindro</a>
     </li>
     <li>
       <a href="page-c.html">Cálcular porosidad %</a>
@@ -303,7 +303,10 @@ $(document).ready(function () {
       <a href="page-d.html">Humedad volumétrica %</a>
     </li>
     <li>
-      <a href="page-e.html">Carbono orgánico y Materia orgánica %</a>
+      <a href="page-e.html">Carbono orgánico y Materia orgánica % por el método de Ignición</a>
+    </li>
+    <li>
+      <a href="para.html">Determinar densidad Aparente 𝒈/𝒄𝒎𝟑,método de la parafina</a>
     </li>
   </ul>
 </li>
@@ -342,7 +345,7 @@ body {
 <body>
 <form name="MyForm">
 <p align="left">
-La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1" size="20"><br><br> Lb40s( lectura en g L-1 del blanco a los 40 s. ):<input type="text" name="numero2" size="20"><br><br> ta40s( temperatura en °C de la muestra a los 40 s.):<input type="text" name="numero3" size="20"><br><br> tb40s( temperatura en °C del blanco a los 40s.) :<input type="text" name="numero4" size="20"><br><br> masa en g de muestra:<input type="text" name="numero5" size="20"><br><br> Calcular el contenido de limo + arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
+La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1" size="20"><br><br> Lb40s( lectura en g L-1 del blanco a los 40 s. ):<input type="text" name="numero2" size="20"><br><br> ta40s( temperatura en °C de la muestra a los 40 s.):<input type="text" name="numero3" size="20"><br><br> tb40s( temperatura en °C del blanco a los 40s.) :<input type="text" name="numero4" size="20"><br><br> masa en g de muestra:<input type="text" name="numero5" size="20"><br><br> Resultado del contenido de limo + arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Calcular" onclick="real()">
 </center>
@@ -351,7 +354,7 @@ La40s(lectura en g L-1 de muestra a los 40 s.):<input type="text" name="numero1"
 </form>
 <form name="MyForm2">
 <p align="left">
-La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" size="20"><br><br> Lb2h(lectura en g L-1 del blanco a las 2h.):<input type="text" name="numero7" size="20"><br><br> ta2h( temperatura en °C de la muestra a las 2h.):<input type="text" name="numero8" size="20"><br><br> tb2h( temperatura en °C del blanco a las 2h.):<input type="text" name="numero9" size="20"><br><br> masa en g de muestra:<input type="text" name="numero10" size="20"><br><br> Calcular el contenido de arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
+La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" size="20"><br><br> Lb2h(lectura en g L-1 del blanco a las 2h.):<input type="text" name="numero7" size="20"><br><br> ta2h( temperatura en °C de la muestra a las 2h.):<input type="text" name="numero8" size="20"><br><br> tb2h( temperatura en °C del blanco a las 2h.):<input type="text" name="numero9" size="20"><br><br> masa en g de muestra:<input type="text" name="numero10" size="20"><br><br> Resultado del contenido de arcilla, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Calcular" onclick="segu()">
 </center>
@@ -360,7 +363,7 @@ La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" siz
 </form>
 <form name="MyForm3">
 <p align="left">
-(Limo + arcilla)%:<input type="text" name="numero11" size="20"><br><br> arcilla :<input type="text" name="numero12" size="20"><br><br> Calcular el contenido de limo, en %: <input type="text" name="resultado" size="20"><br><br>
+(Limo + arcilla)%:<input type="text" name="numero11" size="20"><br><br> arcilla :<input type="text" name="numero12" size="20"><br><br> Resultado del contenido de limo, en %: <input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Calcular" onclick="terce()">
 </center>
@@ -368,7 +371,7 @@ La2h(lectura en g L-1de muestra a las 2h.):<input type="text" name="numero6" siz
 </form>
 <form name="MyForm4">
 <p align="left">
-(Limo + arcilla) :<input type="text" name="numero13" size="20"><br><br> Cálcular el contenido de arena, en %:<input type="text" name="resultado" size="20"><br><br>
+(Limo + arcilla) :<input type="text" name="numero13" size="20"><br><br> Resultado del contenido de arena, en %:<input type="text" name="resultado" size="20"><br><br>
 <center>
 <input type="button" value="Calcular" onclick="cuarta()">
 </center>
