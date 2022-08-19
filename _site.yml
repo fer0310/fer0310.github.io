@@ -35,7 +35,25 @@ navbar:
         - text: "Carbono orgánico y Materia orgánica % por el método de Ignición"
           href: page-e.html
         - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑,método de la parafina"
-          href: para.html 
+          href: para.html
+    - text: "Nutrición "
+      icon: fa-caret-square-o-up
+      href: home22.html
+      menu:
+        - text: "Masa del suelo"
+          href: masa.html
+        - text: "Calculo suministro"
+          href: sumi.html     
+        - text: "Calculo bases(Ca,K,Na,Mg)"
+          href: bases.html 
+    - text: "Guía practica o campo "
+      icon: fa-caret-square-o-up
+      href: home22.html
+      menu:
+        - text: "Guía"
+          href: guia.html
+    - text: "Erick Fernando Cuenca Saquicaray "
+      
 output:
   html_document:
     theme: united

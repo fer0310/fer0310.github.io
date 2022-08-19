@@ -11,7 +11,7 @@
 
 
 
-<title>home1.knit</title>
+<title>sumi.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -361,7 +361,140 @@ $(document).ready(function () {
 </div>
 
 
-
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
+<center>
+<table border="4">
+</center>
+<tr>
+<td bgcolor="moccasin">
+<body>
+<center>
+<b>Calcular suministro</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm">
+Ingrese elemento total
+(mg):<input type="text" name="numero1" size="20"><br><br> Ingrese
+(1kg):<input type="text" name="numero2" size="20"><br><br> Ingrese masa
+del suelo (kg):<input type="text" name="numero3" size="20"><br><br>
+Resultado en (mg)elemento:
+<input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Calcular" onclick="sumi()">
+</center>
+<p><input type="reset" value="Eliminar"></p>
+</form>
+<script>
+     function sumi() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     var n3 = parseFloat(document.MyForm.numero3.value);
+     document.MyForm.resultado.value=((n1*n3)/n2);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+<p></FONT></p>
+</html>
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
+<center>
+<table border="4">
+</center>
+<tr>
+<td bgcolor="moccasin">
+<body>
+<center>
+<b>Convertir de mg(Elemento) a (Kg)/Ha</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm2">
+Ingrese
+elemento(mg):<input type="text" name="numero4" size="20"><br><br>
+Ingrese 1(kg):<input type="text" name="numero5" size="20"><br><br>
+Ingrese 1000000(mg):<input type="text" name="numero6" size="20"><br><br>
+Resultado en (Kg)elemento/Ha:
+<input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Calcular" onclick="tra()">
+</center>
+<p><input type="reset" value="Eliminar"></p>
+</form>
+<script>
+     function tra() {
+     var n4 = parseFloat(document.MyForm2.numero4.value);
+     var n5 = parseFloat(document.MyForm2.numero5.value);
+     var n6 = parseFloat(document.MyForm2.numero6.value);
+     document.MyForm2.resultado.value=((n4*n5)/n6);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+<p></FONT></p>
+</html>
+</html>
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
+<center>
+<table border="4">
+</center>
+<tr>
+<td bgcolor="moccasin">
+<body>
+<center>
+<b>Convertir de mg/Kg a Kg(/Ha)</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm6">
+Ingrese
+elemento(mg/Kg):<input type="text" name="numero8" size="20"><br><br>
+Ingrese factor :<input type="text" name="numero9" size="20"><br><br>
+Resultado en Kg(/Ha):
+<input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Calcular" onclick="ha()">
+</center>
+<p><input type="reset" value="Eliminar"></p>
+</form>
+<script>
+     function ha() {
+     var n8 = parseFloat(document.MyForm6.numero8.value);
+     var n9 = parseFloat(document.MyForm6.numero9.value);
+     document.MyForm6.resultado.value=(n8*n9);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+<p></FONT></p>
+</html>
 
 
 

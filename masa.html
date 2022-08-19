@@ -11,7 +11,7 @@
 
 
 
-<title>home1.knit</title>
+<title>masa.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -361,7 +361,97 @@ $(document).ready(function () {
 </div>
 
 
-
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
+<center>
+<table border="4">
+</center>
+<tr>
+<td bgcolor="moccasin">
+<body>
+<center>
+<img src="lo.JPG" height="160" />
+</center>
+<center>
+Fuente:
+</center>
+<center>
+<b>Calcular masa del suelo</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm">
+Ingrese 1Ha(m2):<input type="text" name="numero1" size="20"><br><br>
+Ingrese densidad aparente(T/m3)
+:<input type="text" name="numero2" size="20"><br><br> Ingrese
+profundidad(m):<input type="text" name="numero3" size="20"><br><br>
+Resultado en T: <input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Calcular" onclick="masa()">
+</center>
+<p><input type="reset" value="Eliminar"></p>
+</form>
+<script>
+     function masa() {
+     var n1 = parseFloat(document.MyForm.numero1.value);
+     var n2 = parseFloat(document.MyForm.numero2.value);
+     var n3 = parseFloat(document.MyForm.numero3.value);
+     document.MyForm.resultado.value=(n1*n2*n3);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+<p></FONT></p>
+</html>
+<html>
+<style>
+body {
+  background-color: coral;
+  }
+</style>
+<FONT FACE="times new roman">
+<center>
+<table border="4">
+</center>
+<tr>
+<td bgcolor="moccasin">
+<body>
+<center>
+<b>Toneladas a Kg</b>
+</CENTER>
+<br><br>
+</body>
+<body>
+<form name="MyForm2">
+Ingrese T:<input type="text" name="numero4" size="20"><br><br> Ingrese
+1000 kG :<input type="text" name="numero5" size="20"><br><br> Resultado
+en Kg: <input type="text" name="resultado" size="20"><br><br>
+<center>
+<input type="button" value="Calcular" onclick="tone()">
+</center>
+<p><input type="reset" value="Eliminar"></p>
+</form>
+<script>
+     function tone() {
+     var n4 = parseFloat(document.MyForm2.numero4.value);
+     var n5 = parseFloat(document.MyForm2.numero5.value);
+     document.MyForm2.resultado.value=(n4*n5);
+     }
+    </script>
+</body>
+</td>
+</tr>
+</table>
+<p></FONT></p>
+</html>
 
 
 
