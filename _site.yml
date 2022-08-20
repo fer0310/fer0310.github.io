@@ -12,6 +12,8 @@ navbar:
           href: textura.html
         - text: "Determinar clase textural"
           href: texcla.html
+        - text: "Clase textural método manual"
+          href: manual.html
     - text: "Ecuaciones "
       icon: fa-caret-square-o-up
       href: home1.html
@@ -37,7 +39,7 @@ navbar:
         - text: "Determinar densidad Aparente 𝒈/𝒄𝒎𝟑,método de la parafina"
           href: para.html
     - text: "Nutrición "
-      icon: fa-caret-square-o-up
+      icon: fa-thin fa-sliders
       href: home22.html
       menu:
         - text: "Masa del suelo"
@@ -47,7 +49,7 @@ navbar:
         - text: "Calculo bases(Ca,K,Na,Mg)"
           href: bases.html 
     - text: "Guía practica o campo "
-      icon: fa-caret-square-o-up
+      icon: fa-thin fa-file
       href: home22.html
       menu:
         - text: "Guía"

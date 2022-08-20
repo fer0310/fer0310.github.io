@@ -4,19 +4,28 @@ body {
   background-color: coral;
   }
 </style>
+
+<head>
+<center>
+<style type="text/css"> 
+
+#coca12 { width: 400px; height: 1080px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style> 
+
+</head>
 <FONT FACE="times new roman">
- <center><table border="4" ></center>
- <tr>
-  <td  bgcolor="moccasin">
-  <center>
+<body> 
+<div id="coca12"> <body><br>
+    <center>
   ![](conversion.JPG){height=160px} </center>
-  <center>Fuente: Diego R. Villaseñor Ortiz </center>
- 
-   <body>
-     <center><b>Calculo de bases</b></CENTER><br><br>
+  <center>Fuente:Ing.Diego R. Villaseñor Ortiz</center>
+   <body><br>  <H5><center><b>Calculo de bases</b></CENTER><br> </H5>
    </body>
   <body>
-    <form name="MyForm">
+    <form name="MyForm"><P ALIGN = LEFT>
       Ingrese calcio (mq):<input type="text" name="numero1" size="20"><br><br>
       Ingrese calcio(mg/Kg):<input type="text" name="numero2" size="20"><br><br>
      Resultado en (mg/Kg)Ca:        <input type="text" name="resultado" size="20"><br><br>
@@ -32,7 +41,7 @@ body {
      }
     </script>
     <body>
-    <form name="MyForm2">
+    <form name="MyForm2"><P ALIGN = LEFT>
       Ingrese magnesio (mq):<input type="text" name="numero3" size="20"><br><br>
       Ingrese magnesio(mg/Kg):<input type="text" name="numero4" size="20"><br><br>
      Resultado en (mg/Kg)Mg:        <input type="text" name="resultado" size="20"><br><br>
@@ -47,7 +56,7 @@ body {
      }
     </script>
     <body>
-    <form name="MyForm3">
+    <form name="MyForm3"><P ALIGN = LEFT>
       Ingrese sodio (mq):<input type="text" name="numero5" size="20"><br><br>
       Ingrese sodio (mg/Kg):<input type="text" name="numero6" size="20"><br><br>
      Resultado en (mg/Kg)Na:        <input type="text" name="resultado" size="20"><br><br>
@@ -63,7 +72,7 @@ body {
      }
     </script>
     <body>
-    <form name="MyForm4">
+    <form name="MyForm4"><P ALIGN = LEFT>
       Ingrese potasio (mq):<input type="text" name="numero7" size="20"><br><br>
       Ingrese potasio (mg/Kg):<input type="text" name="numero8" size="20"><br><br>
      Resultado en (mg/Kg)K:        <input type="text" name="resultado" size="20"><br><br>
@@ -80,30 +89,39 @@ body {
     </script>
     
   </body>
- </td>
- </tr>
-</table>
-</FONT>
-
+ </div> 
+   </body>
+   </FONT>
+  </center>
 </html>
-
-
+########################################################
+<br><br>
 <html>
 <style>
 body {
   background-color: coral;
   }
 </style>
+
+<head>
+<center>
+<style type="text/css"> 
+
+#coca121 { width: 400px; height: 270px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style> 
+
+</head>
 <FONT FACE="times new roman">
- <center><table border="4" ></center>
- <tr>
-  <td  bgcolor="moccasin">
-   <body>
-     <center><b>Convertir de mg/Kg a Kg(/Ha)</b></CENTER><br><br>
+<body> 
+<div id="coca121"> 
+   <body><br>  <H5><center><b>Convertir de mg/Kg a Kg(/Ha)</b></CENTER><br> </H5>
    </body>
 
   <body>
-    <form name="MyForm5">
+    <form name="MyForm5"><P ALIGN = LEFT>
       Ingrese base(mg/Kg):<input type="text" name="numero4" size="20"><br><br>
       Ingrese factor :<input type="text" name="numero5" size="20"><br><br>
      Resultado en Kg(/Ha):        <input type="text" name="resultado" size="20"><br><br>
@@ -119,9 +137,8 @@ body {
      }
     </script>
   </body>
- </td>
- </tr>
-</table>
-</FONT>
-
+ </div> 
+   </body>
+   </FONT>
+  </center>
 </html>

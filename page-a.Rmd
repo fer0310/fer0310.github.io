@@ -1,20 +1,32 @@
 
+
 <html>
+<div>
 <style>
 body {
   background-color: coral;
   }
 </style>
+
+<head>
+<center>
+<style type="text/css"> 
+
+#coca { width: 400px; height: 335px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style> 
+
+</head>
 <FONT FACE="times new roman">
- <center><table border="4" ></center>
- <tr>
-  <td  bgcolor="moccasin">
-   <body>
-     <center><b>Cálcular densidad real</b></CENTER><br><br>
+<body> 
+<div id="coca"> 
+   <body>  <H5><center><b>Calcular densidad real </b></CENTER><br> </H5>
    </body>
 
   <body>
-    <form name="MyForm">
+    <form name="MyForm"><P ALIGN = LEFT>
       Peso del balón vacío :<input type="text" name="numero1" size="20"><br><br>
       Peso del balón + muestra del suelo :<input type="text" name="numero2" size="20"><br><br>
       Peso del balón + suelo + agua :<input type="text" name="numero3" size="20"><br><br>
@@ -35,9 +47,7 @@ body {
      }
     </script>
   </body>
- </td>
- </tr>
-</table>
-</FONT>
-
+ </FONT>
+  </center>
+  </div>
 </html>

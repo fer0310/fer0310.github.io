@@ -262,6 +262,9 @@ $(document).ready(function () {
     <li>
       <a href="texcla.html">Determinar clase textural</a>
     </li>
+    <li>
+      <a href="manual.html">Clase textural método manual</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -312,7 +315,7 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="fa fa-caret-square-o-up"></span>
+    <span class="fa fa-thin fa-sliders"></span>
      
     Nutrición 
      
@@ -332,7 +335,7 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    <span class="fa fa-caret-square-o-up"></span>
+    <span class="fa fa-thin fa-file"></span>
      
     Guía practica o campo 
      
@@ -367,46 +370,54 @@ body {
   background-color: coral;
   }
 </style>
-<FONT FACE="times new roman">
+<head>
 <center>
-<table border="4">
-</center>
-<tr>
-<td bgcolor="moccasin">
+<style type="text/css"> 
+
+#round { width: 400px; height: 360px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style>
+</head>
+<FONT FACE="times new roman">
 <body>
+<div id="round">
+<H5>
 <center>
 <b>Calcular humedad aprovechable</b>
 </CENTER>
 <br><br>
-</body>
+</H5>
 <body>
-<form name="MyForm">
+<form name="MyForm1">
+<P ALIGN = LEFT>
 Ingrese capacidad de
-campo:<input type="text" name="numero1" size="20"><br><br> Ingrese punto
+campo:<input type="text" name="numero5" size="20"><br><br> Ingrese punto
 de marchitez permanente
-:<input type="text" name="numero2" size="20"><br><br> Ingrese densidad
-aparente:<input type="text" name="numero3" size="20"><br><br> Ingrese
-profundidad:<input type="text" name="numero4" size="20"><br><br>
+:<input type="text" name="numero6" size="20"><br><br> Ingrese densidad
+aparente:<input type="text" name="numero7" size="20"><br><br> Ingrese
+profundidad:<input type="text" name="numero8" size="20"><br><br>
 Resultado en Lm2: <input type="text" name="resultado" size="20"><br><br>
 <center>
-<input type="button" value="Calcular" onclick="agua()">
+<input type="button" value="Calcular" onclick="agua1()">
 </center>
 <p><input type="reset" value="Eliminar"></p>
 </form>
 <script>
-     function agua() {
-     var n1 = parseFloat(document.MyForm.numero1.value);
-     var n2 = parseFloat(document.MyForm.numero2.value);
-     var n3 = parseFloat(document.MyForm.numero3.value);
-     var n4 = parseFloat(document.MyForm.numero4.value);
-     document.MyForm.resultado.value=((((n1-n2)*n3*n4)/100)*10);
+     function agua1() {
+     var n5 = parseFloat(document.MyForm1.numero5.value);
+     var n6 = parseFloat(document.MyForm1.numero6.value);
+     var n7 = parseFloat(document.MyForm1.numero7.value);
+     var n8 = parseFloat(document.MyForm1.numero8.value);
+     document.MyForm1.resultado.value=((((n5-n6)*n7*n8)/100)*10);
      }
     </script>
 </body>
-</td>
-</tr>
-</table>
-<p></FONT></p>
+</div>
+</body>
+</FONT>
+</center>
 </html>
 
 

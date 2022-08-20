@@ -1,4 +1,5 @@
 
+
 <html>
 <style>
 body {
@@ -6,12 +7,21 @@ body {
   }
 </style>
 
+<head>
+<center>
+<style type="text/css"> 
+
+#round { width: 500px; height: 1100px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style> 
+
+</head>
 <FONT FACE="times new roman">
- <center><table border="5" ></center>
- <tr>
-  <td  bgcolor="moccasin">
-   <body>
-     <center><b>Calcular textura</b><br><br>
+<body> 
+<div id="round"> 
+<H5><center><b>Calcular textura</b></CENTER><br><br> </H5>
    </body>
 
   <body>
@@ -96,9 +106,8 @@ body {
      }
     </script>
   </body>
- </td>
- </tr>
-</table>
-</FONT>
-
+ </div> 
+   </body>
+   </FONT>
+  </center>
 </html>

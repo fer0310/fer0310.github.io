@@ -1,20 +1,31 @@
 
+
 <html>
+<div>
 <style>
 body {
   background-color: coral;
   }
 </style>
+
+<head>
+<center>
+<style type="text/css"> 
+
+#coca { width: 400px; height: 250px; 
+         background-color: rgb(255,228,181); 
+         border: 1px solid Moccasin; 
+         border-radius: 1em;} 
+</style> 
+
+</head>
 <FONT FACE="times new roman">
- <center><table border="4" ></center>
- <tr>
-  <td  bgcolor="moccasin">
-   <body>
-     <center><b>Calcular porosidad</b></CENTER><br><br>
-   </body>
+<body> 
+<div id="coca"> 
+   <body>  <H5><center><b>Calcular porosidad</b></CENTER><br> </H5>
 
   <body>
-    <form name="MyForm">
+    <form name="MyForm"><P ALIGN = LEFT>
       Densidad aparente :<input type="text" name="numero1" size="20"><br><br>
       Densidad real :<input type="text" name="numero2" size="20"><br><br>
       Resultado porosidad :        <input type="text" name="resultado" size="20"><br><br>
@@ -31,10 +42,7 @@ body {
      }
     </script>
   </body>
- </td>
- </tr>
-</table>
-</FONT>
-
-
+ </FONT>
+  </center>
+  </div>
 </html>
