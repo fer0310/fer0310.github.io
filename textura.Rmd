@@ -11,7 +11,7 @@ body {
 <center>
 <style type="text/css"> 
 
-#round { width: 500px; height: 1100px; 
+#round { width: 500px; height: 1180px; 
          background-color: rgb(255,228,181); 
          border: 1px solid Moccasin; 
          border-radius: 1em;} 

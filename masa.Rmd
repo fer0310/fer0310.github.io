@@ -8,7 +8,7 @@ body {
 <head>
 <center>
 <style type="text/css"> 
-#round1 { width: 480px; height: 490px; 
+#round1 { width: 480px; height: 510px; 
          background-color: rgb(255,228,181); 
          border: 1px solid Moccasin; 
          border-radius: 1em;} 
